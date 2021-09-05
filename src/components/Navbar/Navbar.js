@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <div className="main-navbar ">
             <div className="logo">
-                <Link href="#" to="/home" className="logo pointer"><img src={logoImg} alt="" onClick={()=>toggleNavMobile(!navMobile)}/></Link>
+                <Link href="#" to="/home" className="logo pointer"><img src={logoImg} alt="" /></Link>
             </div>
             <div className="hamburger-menu">
                 <a className={`${navMobile ? 'opened' : 'menu'}`} onClick={() => toggleNavMobile(!navMobile)} aria-label="Main Menu">
